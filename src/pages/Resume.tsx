@@ -32,6 +32,16 @@ const Resume = () => {
     'Other Skills': ['Web Scraping', 'Algorithm Design', 'UI/UX Design', 'Problem Solving']
   };
 
+  const handleDownloadCV = () => {
+    const cvUrl = 'https://raw.githubusercontent.com/Ali-Nawaz-devt/Portfolio-Project/17c693cbe274b51f034fa2b73b98c2cf0682ae06/Ali-Nawaz-FlowCV-Resume-20250612.pdf';
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = 'Ali-Nawaz-Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="min-h-screen py-16">
       <div className="container mx-auto px-4">
@@ -45,7 +55,10 @@ const Resume = () => {
               Software Developer with expertise in Java, React, and Python
             </p>
             
-            <button className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-all duration-300 hover:scale-105 flex items-center gap-2 mx-auto animate-fade-in">
+            <button 
+              onClick={handleDownloadCV}
+              className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-all duration-300 hover:scale-105 flex items-center gap-2 mx-auto animate-fade-in"
+            >
               <Download size={20} />
               Download PDF Resume
             </button>
