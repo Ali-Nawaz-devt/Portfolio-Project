@@ -32,8 +32,8 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=300&fit=crop',
       category: 'Web Application',
       status: 'Completed',
-      githubUrl: '#',
-      liveUrl: '#',
+      githubUrl: 'https://github.com/Ali-Nawaz-devt/Course-learning-Website-cousera-clone-.git',
+      liveUrl: 'https://course-learning-website-cousera-clone-rk1z-5swqj6r1t.vercel.app',
     },
     {
       id: 4,
