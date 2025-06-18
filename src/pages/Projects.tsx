@@ -10,7 +10,7 @@ const Projects = () => {
       image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop',
       category: 'Desktop Application',
       status: 'Completed',
-      githubUrl: '#',
+      githubUrl: 'https://github.com/Ali-Nawaz-devt/JavaFx-Search-Algorithm-Project.git',
       liveUrl: null,
     },
     {
