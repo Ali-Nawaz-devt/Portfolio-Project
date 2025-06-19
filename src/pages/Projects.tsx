@@ -33,7 +33,7 @@ const Projects = () => {
       category: 'Web Application',
       status: 'Completed',
       githubUrl: 'https://github.com/Ali-Nawaz-devt/Course-learning-Website-cousera-clone-.git',
-      liveUrl: 'https://course-learning-website-cousera-clone-rk1z-5swqj6r1t.vercel.app',
+      liveUrl: 'https://course-learning-website-cousera-clo-red.vercel.app/',
     },
     {
       id: 4,
