@@ -46,15 +46,17 @@ const Projects = () => {
       githubUrl: 'https://github.com/Ali-Nawaz-devt/The-Shaikh-Ayaz-University-Website.git',
       liveUrl: 'https://shikah-ayaz-university-shikarpur.vercel.app',
     },
+   
+
     {
       id: 5,
-      title: 'Python Web Scraper',
-      description: 'Advanced web scraping tool built with Python for data extraction and automation. Features scheduling, data cleaning, and export to multiple formats.',
-      technologies: ['Python', 'Beautiful Soup', 'Selenium', 'Pandas'],
+      title: 'TimesJobs Web Scraper',
+      description: 'Python script to scrape job listings from TimesJobs website. Extracts job title, company, location, experience, salary, skills, and job links. Delivers data in Excel, CSV, or JSON format. Efficient, customizable, and suitable for job tracking, data analysis, or lead generation.',
+      technologies: ['Python', 'Beautiful Soup', 'Selenium', 'Pandas', 'Web Scraping'],
       image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop',
       category: 'Automation',
-      status: 'In Progress',
-      githubUrl: '#',
+      status: 'Completed',
+      githubUrl: 'https://github.com/Ali-Nawaz-devt/WebScraper-TimesJobs.git',
       liveUrl: null,
     },
     {
