@@ -14,6 +14,17 @@ const Projects = () => {
       liveUrl: null,
     },
     {
+      id: 6,
+      title: 'File Organization Automation Tool',
+      description: 'Smart automation tool that streamlines file management by automatically organizing and moving files between folders based on customizable rules. Features intelligent file categorization, batch processing, and scheduled automation. Perfect for maintaining clean directory structures, organizing downloads, and automating repetitive file management tasks.',
+      technologies: ['Python', 'File System', 'Automation', 'Scheduling'],
+      image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=300&fit=crop',
+      category: 'Automation',
+      status: 'Completed',
+      githubUrl: 'https://github.com/Ali-Nawaz-devt/CodeAlpha_Automation_Project.git',
+      liveUrl: null,
+    },
+    {
       id: 2,
       title: 'Interactive Quiz Application',
       description: 'Desktop quiz application built with JavaFX featuring multiple question types, scoring system, and user progress tracking. Includes admin panel for quiz management.',
