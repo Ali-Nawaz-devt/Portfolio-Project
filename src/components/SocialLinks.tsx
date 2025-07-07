@@ -7,7 +7,7 @@ const SocialLinks = () => {
       <h2 className="text-2xl font-bold mb-6 text-foreground">Connect With Me</h2>
       <div className="space-y-4">
         <a
-          href="https://www.linkedin.com/in/ali-nawaz-51a35a36b"
+          href="https://www.linkedin.com/in/ali-nawaz-786w"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-4 p-4 rounded-lg border border-gray-200 hover:border-primary hover:bg-primary/5 transition-all duration-300 group"
@@ -37,7 +37,7 @@ const SocialLinks = () => {
         </a>
 
         <a
-          href="#"
+          href="https://www.upwork.com/freelancers/~01ec1b9f108251ac9e"
           className="flex items-center gap-4 p-4 rounded-lg border border-gray-200 hover:border-primary hover:bg-primary/5 transition-all duration-300 group"
         >
           <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center group-hover:bg-green-200 transition-colors">
