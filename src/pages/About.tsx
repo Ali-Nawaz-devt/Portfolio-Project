@@ -3,12 +3,15 @@ import { Award, Code2, Coffee, GraduationCap } from 'lucide-react';
 
 const About = () => {
   const skills = [
-    { name: 'Java', level: 90, color: 'bg-blue-500' },
-    { name: 'JavaFX', level: 85, color: 'bg-blue-400' },
-    { name: 'JavaScript', level: 80, color: 'bg-yellow-500' },
-    { name: 'React', level: 75, color: 'bg-cyan-500' },
-    { name: 'Python', level: 70, color: 'bg-green-500' },
-    { name: 'Salesforce', level: 60, color: 'bg-indigo-500' },
+    { name: 'Python', level: 90, color: 'bg-blue-500' },
+    { name: 'java', level: 80, color: 'bg-green-500' },
+    { name: 'React', level: 70, color: 'bg-cyan-500' },
+    { name: 'JavaScript', level: 75, color: 'bg-yellow-500' },
+    { name: 'JavaFX', level:60, color: 'bg-blue-400' },
+    
+    
+    
+    
   ];
 
   return (
