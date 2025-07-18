@@ -33,9 +33,8 @@ const Home = () => {
               </div>
               
               <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-12 animate-fade-in font-inter">
-                Specializing in Java, React, Python, and Salesforce development. 
-                Creating efficient solutions for desktop and web applications with a focus on quality and innovation.
-              </p>
+               Specializing in Python development, along with experience in Java, React, and WordPress.
+Creating efficient solutions for desktop and web applications with a focus on quality and innovation.              </p>
             </div>
 
             {/* CTA Buttons */}
